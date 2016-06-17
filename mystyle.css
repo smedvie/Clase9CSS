@@ -1,0 +1,38 @@
+body {
+     background-image: url("fondo.jpg");
+    background-color: #cccccc;
+
+}
+
+.footer{
+		width: 100%;
+		background-color: black;
+		text-align: center;
+		clear: both;
+		position: relative;
+		z-index: 10;
+		height: 3em;
+		margin-top: -3em;
+	}
+
+.container{
+	margin-left: 6vw;
+	margin-top: 6vw;
+}
+
+.circle{
+	height: 10vw;
+	width: 20vw;
+	margin-top: 3vw;
+	margin-left: 3vw;
+	background-color: black;
+	margin: left;
+}
+
+.personaje {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: red; 
+	z-index: 10;
+}
